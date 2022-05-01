@@ -1,5 +1,5 @@
 import torch
-from dataset2 import MetaDataset
+from dataset import MetaDataset
 from torch.utils.data import DataLoader
 import argparse
 from torch.nn import functional as F
