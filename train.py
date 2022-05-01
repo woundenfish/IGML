@@ -4,7 +4,7 @@ from torch.utils.data import DataLoader
 import argparse
 from torch.nn import functional as F
 import random
-from maml import Meta
+from meat_learner import Meta
 import numpy as np
 import matplotlib.pyplot as plt
 from skimage.feature import peak_local_max
